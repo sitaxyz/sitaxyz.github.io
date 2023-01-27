@@ -1,0 +1,93 @@
+.button-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight:bold
+    
+  }
+  .image-container {
+    width: 50%;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow:hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+    transition: transform 0.1s ease-in-out;
+    transition: box-shadow .5s ease, transform .2s ease; 
+  }
+  .image-container img {
+    margin-top: 80px;
+    max-height: 245%;
+    filter: brightness(40%)
+    
+
+  }
+  .button {
+    width: 100px;
+    height: 50px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+    border-radius: 15px;
+    display: inline-block;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    background: linear-gradient(135deg, #75bce6, #87a4e2);
+    transition: box-shadow .5s ease, transform .2s ease; 
+    will-change: transform;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  }
+
+
+  .button:hover {
+    transform: scale(1.15);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+  }
+  
+a {
+    text-decoration:none;
+  }
+  body {
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+  .image-container:hover {
+    transform: scale(101.5%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+  }
+
+  .text_link {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    position: absolute;
+    top: 90%;
+    left: 91%;
+    text-shadow: rgb(0, 0, 0) 2px 1px 0.5px;
+  }
+  
+  .box_bg {
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    left: 1%;
+    top: 1%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #252525, #242424);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
